@@ -11,8 +11,12 @@ This accepts the video as an input
 ##### Output
 A video with a tally counter integrated into it.
 
-## Coding structure
-
+### Coding structure
+* Reads the video frame by frame 
+* Detects 33 body landmarks using mediapipe model
+* Use the coordinates of ankle, knee and hip to determine body position and action
+* keep track of actions to determine tally
+* write the frames to create a video 
 
 
 ### Directory Structure
