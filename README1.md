@@ -18,7 +18,7 @@
 
 ### Directory Structure
         
-        ├── detectron2-windows          # a directory containing detectron 2 code
+        ├── yolov4_deepsort          # a directory containing detectron 2 code
         ├── dynamic_time_wraping
             ├── __init__.py
             ├── dtw.py
