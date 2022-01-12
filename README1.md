@@ -1,4 +1,4 @@
-# Squat Counter
+# A web app to track a person
 > This project tracks a person which is selected by a user in a provided video and then calcualtes
   it's similarity with a benchmark video using pose points.
 
@@ -16,17 +16,7 @@
 > A pose points file
 > DTW score against a challenge.
 
-### Coding structure
-* Reads the video frame by frame 
-* Detects 33 body landmarks using mediapipe model
-* Use the coordinates of wrist, elbow and shoulder to determine body position and action
-* keep track of actions to determine tally
-* write the frames to create a video 
-
 ### Directory Structure
-
-Project
-        .
         
         ├── detectron2-windows          # a directory containing detectron 2 code
         ├── dynamic_time_wraping
